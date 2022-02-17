@@ -29,7 +29,7 @@ public class UI
         Console.WriteLine("[C]oncluir Tarefa");
         Console.WriteLine("[E]xcluir Tarefa");
         Console.WriteLine("[S]air");
-        Console.Write("\nDigite a sua opção: ");
+        Console.Write("\nDigite a opção desejada: ");
 
         string entrada = (Console.ReadLine() ?? "").ToUpper().Trim();
         return entrada.Length < 2 ? entrada : entrada.Substring(0, 1);
