@@ -14,4 +14,3 @@ SELECT * FROM tarefa;
 INSERT INTO `tarefas`.`tarefa` (`descricao`, `concluida`) VALUES ('Estudar C#', '0');
 INSERT INTO `tarefas`.`tarefa` (`descricao`, `concluida`) VALUES ('Estuda MySQL', '0');
 INSERT INTO `tarefas`.`tarefa` (`descricao`, `concluida`) VALUES ('Estudar Git', '1');
-
