@@ -1,0 +1,10 @@
+dotnet tool install --global dotnet-ef
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+/* EXEMPLO */
+dotnet ef dbcontext scaffold "server=localhost;port=3306;uid=root;pwd=1234;database=tarefas" Pomelo.EntityFrameworkCore.MySql -o db -f --no-pluralize
+
+dotnet ef dbcontext scaffold "server=localhost;port=3306;user=root;password=admin;database=tarefas" Pomelo.EntityFrameworkCore.MySql -o db -f --no-pluralize
